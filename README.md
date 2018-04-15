@@ -25,7 +25,7 @@ dependencies {
 
 **1.TextView**
 
-![这里写图片描述](https://img-blog.csdn.net/20180415175125404?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvbmZ1c2luZ19hd2FrZW5pbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![Image text](gif/1.gif)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -121,8 +121,7 @@ public class TVActivity extends BaseActivity {
 ```
 **2.TextView+Scroll**
 
-
-![这里写图片描述](https://img-blog.csdn.net/20180415175440996?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvbmZ1c2luZ19hd2FrZW5pbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![Image text](gif/2.gif)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -272,7 +271,7 @@ public class TVScrollActivity extends BaseActivity {
 ```
 **3.layout+scroll+remove+add**
 
-![这里写图片描述](https://img-blog.csdn.net/20180415175648221?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvbmZ1c2luZ19hd2FrZW5pbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![Image text](gif/3.gif)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -426,7 +425,7 @@ public class LayoutScrollActivity extends BaseActivity {
 **4.layout+multi+scroll+remove+add**
 
 
-![这里写图片描述](https://img-blog.csdn.net/20180415175804558?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvbmZ1c2luZ19hd2FrZW5pbmc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![Image text](gif/4.gif)
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -588,3 +587,28 @@ public class LayoutMultiScrollActivity extends BaseActivity {
 
  
  参考：[Android 自定义控件](https://blog.csdn.net/confusing_awakening/article/category/6994167)
+ 
+ 
+ 
+  **更新日志**
+ 
+ *V1.1.1*
+  - Android 流式布局FlowLayout(搜索历史),可多布局、点击删除、添加等操作，暂无类似RecyclerView布局复用的处理，所以数据不应添加过多
+  
+  
+
+**License**
+
+ Copyright [AnJiaoDe] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
