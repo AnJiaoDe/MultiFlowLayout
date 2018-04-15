@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btn_tv_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView+scroll" />
+
+    <Button
+        android:id="@+id/btn_layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout+scroll+remove+add" />
+    <Button
+        android:id="@+id/btn_layout__multi_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout+multi+scroll+remove+add" />
+</LinearLayout>

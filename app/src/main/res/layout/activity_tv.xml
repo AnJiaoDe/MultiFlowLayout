@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cy.cyflowlayoutlibrary.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    app:width_space="10dp"
+    app:height_space="10dp"
+    android:padding="10dp"
+    android:layout_height="400dp">
+
+</com.cy.cyflowlayoutlibrary.FlowLayout>
