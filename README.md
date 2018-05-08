@@ -44,16 +44,7 @@ dependencies {
 ```
 
 ```
-package com.cy.cyflowlayout;
 
-import android.os.Bundle;
-import android.view.View;
-
-import com.cy.cyflowlayoutlibrary.FlowLayout;
-import com.cy.cyflowlayoutlibrary.FlowLayoutAdapter;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class TVActivity extends BaseActivity {
 
@@ -140,16 +131,6 @@ public class TVActivity extends BaseActivity {
 ```
 
 ```
-package com.cy.cyflowlayout;
-
-import android.os.Bundle;
-import android.view.View;
-
-import com.cy.cyflowlayoutlibrary.FlowLayoutAdapter;
-import com.cy.cyflowlayoutlibrary.FlowLayoutScrollView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class TVScrollActivity extends BaseActivity {
     private FlowLayoutAdapter<String> flowLayoutAdapter;
@@ -288,16 +269,7 @@ public class TVScrollActivity extends BaseActivity {
 ```
 
 ```
-package com.cy.cyflowlayout;
 
-import android.os.Bundle;
-import android.view.View;
-
-import com.cy.cyflowlayoutlibrary.FlowLayoutAdapter;
-import com.cy.cyflowlayoutlibrary.FlowLayoutScrollView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class LayoutScrollActivity extends BaseActivity {
     private FlowLayoutAdapter<String> flowLayoutAdapter;
@@ -442,16 +414,6 @@ public class LayoutScrollActivity extends BaseActivity {
 ```
 
 ```
-package com.cy.cyflowlayout;
-
-import android.os.Bundle;
-import android.view.View;
-
-import com.cy.cyflowlayoutlibrary.FlowLayoutAdapter;
-import com.cy.cyflowlayoutlibrary.FlowLayoutScrollView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class LayoutMultiScrollActivity extends BaseActivity {
     private FlowLayoutAdapter<String> flowLayoutAdapter;
@@ -588,24 +550,7 @@ public class LayoutMultiScrollActivity extends BaseActivity {
  
 
 ```
-package com.cy.cyflowlayoutlibrary;
 
-
-import android.graphics.Bitmap;
-import android.util.SparseArray;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-
-import java.util.Collection;
-import java.util.List;
-
-/**
- * Created by cy on 2018/2/8.
- */
 
 public abstract class FlowLayoutAdapter<T> {
     private OnDataSetChangedListener onDataSetChangedListener;
