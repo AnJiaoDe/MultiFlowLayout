@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CYFlowLayout.iml" filepath="$PROJECT_DIR$/CYFlowLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiFlowLayout.iml" filepath="$PROJECT_DIR$/MultiFlowLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cyflowlayoutlibrary/cyflowlayoutlibrary.iml" filepath="$PROJECT_DIR$/cyflowlayoutlibrary/cyflowlayoutlibrary.iml" />
     </modules>

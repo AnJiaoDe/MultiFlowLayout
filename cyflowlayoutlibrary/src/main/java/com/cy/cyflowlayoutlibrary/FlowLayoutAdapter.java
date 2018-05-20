@@ -29,7 +29,7 @@ public abstract class FlowLayoutAdapter<T> {
         return list_bean.size();
     }
 
-    public final View getView(FlowLayout parent, final int position) {
+    public  View getView(FlowLayout parent, final int position) {
 
         View view = LayoutInflater.from(parent.getContext()).inflate(getItemLayoutID(position, list_bean.get(position)), parent, false);
 
