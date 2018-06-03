@@ -818,8 +818,7 @@ public abstract class FlowLayoutAdapter<T> {
 }
 
 ```
- 
- 参考：[Android 自定义控件](https://blog.csdn.net/confusing_awakening/article/category/6994167)
+
  
  
  
